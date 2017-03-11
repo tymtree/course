@@ -1,14 +1,14 @@
 /*  Coursera assignment 2 */
 * {
 	box-sizing: border-box;
+	margin: auto;
 
 }
 
 body {
 	font-family: sans-serif;
 	width: 90%;
-	margin: auto;
-}
+	}
 
 .container {
 	border: none;
@@ -18,30 +18,32 @@ body {
 .container h1 {
 	font-size: 50px;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 div.row {
 	width: 100%;
-}
+	margin: auto;
+	}
 
-div.row .mob{
+div.row .mob {
 	border:1px solid black;
+	background-color: #999999;
 	margin-bottom: 5px;
-}
+	float: left;
+ }
 
 p#item {
 	float: right;
+	font-weight: bold;
 	background-color: #d59898;
 	margin: 0px auto;
 	border:1px solid black;
 	padding: 5px 20px;
-
 }
 p#item2 {
 	float: right;
+	font-weight: bold;
 	background-color: #c14543;
-	width: auto;
-	height: auto;
 	margin: 0px auto;
 	border:1px solid black;
 	padding: 5px 20px;
@@ -49,9 +51,8 @@ p#item2 {
 }
 p#item3 {
 	float: right;
+	font-weight: bold;
 	background-color: #e5d198;
-	width: auto;
-	height: auto;
 	margin: 0px auto;
 	border:1px solid black;
 	padding: 5px 20px;
@@ -67,6 +68,7 @@ p#subitem {
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 		float: left;
+		margin:auto;
 	}
 	.col-lg-1 {
 		width: 8.33%;
@@ -105,6 +107,7 @@ p#subitem {
 		width: 100%;
 	}
 }
+
 
 /* Medium screen size */
 @media (min-width: 768px) and (max-width: 991px) {
